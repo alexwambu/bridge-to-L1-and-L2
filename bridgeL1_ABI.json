@@ -1,0 +1,17 @@
+
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      }
+    ],
+    "name": "depositToL2",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]
+
