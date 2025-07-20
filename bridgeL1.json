@@ -1,0 +1,20 @@
+{
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {"indexed": true, "name": "from", "type": "address"},
+        {"indexed": false, "name": "amount", "type": "uint256"}
+      ],
+      "name": "Burn",
+      "type": "event"
+    },
+    {
+      "inputs": [{"name": "amount", "type": "uint256"}],
+      "name": "burn",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ]
+}
