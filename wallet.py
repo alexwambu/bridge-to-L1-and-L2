@@ -1,4 +1,3 @@
-// wallet_connect.html
 <!DOCTYPE html>
 <html>
 <head>
