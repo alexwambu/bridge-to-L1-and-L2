@@ -1,4 +1,4 @@
-Kuimport streamlit as st
+import streamlit as st
 import streamlit.components.v1 as components
 from web3 import Web3
 import json
