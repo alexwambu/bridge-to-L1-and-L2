@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+</head>
+<body>
+  <button onclick="connect()">Connect MetaMask</button>
+  <p id="wallet"></p>
+  <script>
+    async function connect() {
+      if (window.ethereum) {
+        const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+        document.getElementById("wallet").innerText = "Connected: " + accounts[0];
+      } else {
+        alert("MetaMask not installed.");
+      }
+    }
+  </script>
+</body>
+</html>
