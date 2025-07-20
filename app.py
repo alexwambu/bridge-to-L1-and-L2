@@ -1,4 +1,4 @@
-import streamlit as st
+Kuimport streamlit as st
 import streamlit.components.v1 as components
 from web3 import Web3
 import json
@@ -91,7 +91,7 @@ def main_app():
                 st.error(f"Failed to fetch balances: {e}")
 
 
-// 1. BridgeL1_ABI.json
+# BridgeL1_ABI.json
 [
   {
     "inputs": [
@@ -108,7 +108,7 @@ def main_app():
   }
 ]
 
-// 2. BridgeL2_ABI.json
+# BridgeL2_ABI.json
 [
   {
     "inputs": [
@@ -130,7 +130,7 @@ def main_app():
   }
 ]
 
-// 3. wallet_connect.html
+# wallet_connect.html
 <!DOCTYPE html>
 <html>
 <head>
